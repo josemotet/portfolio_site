@@ -1,0 +1,470 @@
+/*GENERELT*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+main {
+  margin: 5%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2,
+h3 {
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #d63511;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.ux_knap {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ux_knap:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*HEADER*/
+header {
+  border-bottom: 1px solid black;
+}
+
+.header_txt {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.header_logo:hover {
+  color: #383736;
+  transition: 0.3s;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+  gap: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #d63511;
+  transition: 0.3s;
+}
+
+/*FORSIDE*/
+
+/*OM*/
+a {
+  font-weight: lighter;
+}
+
+.om {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.portraet img,
+.portraet2 img {
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 20px;
+}
+
+.om_overskrift,
+.om_overskrift_2 {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.om_txt,
+.om_txt_2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cv {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.cv_txt {
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.cv_txt_grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.aar {
+  text-decoration: underline;
+  justify-self: end;
+}
+
+.stilling {
+  justify-self: center;
+}
+
+.sted {
+  justify-self: start;
+}
+
+/*02*/
+.web_overskrift {
+  text-align: center;
+}
+
+/*03*/
+
+.UX {
+  text-align: center;
+}
+
+.ux_txt_box_h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ux_txt_box {
+  border: 1px solid black;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.ux_storyboard {
+  margin-bottom: 20px;
+}
+
+.ux_txt_grid {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.ux_img_grid,
+.ux_img_grid_2,
+.ux_img_grid_3,
+.ux_img_grid_4 {
+  margin: 30px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ux_img_prototype_mob {
+  width: 40%;
+}
+
+.ux_crazy8 {
+  margin-bottom: 20px;
+}
+
+.ux_sitemap {
+  margin-left: 25px;
+}
+
+.ux_img_sitemap {
+  width: 100%;
+}
+
+/*04*/
+.animation h1 {
+  text-align: center;
+}
+
+/*05*/
+.indhold {
+  text-align: center;
+}
+
+.indhold_grid h2 {
+  text-align: center;
+}
+
+.vs_baggrundsbillede {
+  position: relative;
+  background: url("img/05_baggrundsbillede.webp") center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.vs_txt_container {
+  text-align: center;
+  margin: 0;
+}
+
+.vs_baggrundsbillede::before {
+  content: ""; /* Pseudo-elementet skal have indhold for at blive vist */
+  position: absolute; /* Position det absolut inden i .vs_baggrundsbillede */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Juster baggrundsfarven efter behov */
+  opacity: 0; /* Start med gennemsigtighed 0 */
+  transition: opacity 0.3s ease; /* Tilføj en overgang for en jævn overgang */
+  border-radius: 20px;
+}
+
+.vs_hover-funktion:hover .vs_baggrundsbillede::before {
+  opacity: 1;
+}
+
+.vs_txt_container {
+  position: relative; /* Sørg for, at position er indstillet for indholdet */
+  z-index: 1; /* Placer indholdet over pseudo-elementet */
+}
+
+.re_logo {
+  position: relative;
+  background: url("img/05_rnd.webp") center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.re_txt_container {
+  text-align: center;
+  margin: 0;
+}
+
+.re_logo::before {
+  content: ""; /* Pseudo-elementet skal have indhold for at blive vist */
+  position: absolute; /* Position det absolut inden i .vs_baggrundsbillede */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Juster baggrundsfarven efter behov */
+  opacity: 0; /* Start med gennemsigtighed 0 */
+  transition: opacity 0.3s ease; /* Tilføj en overgang for en jævn overgang */
+  border-radius: 20px;
+}
+
+.re_hover-funktion:hover .re_logo::before {
+  opacity: 1;
+}
+
+.re_txt_container {
+  position: relative; /* Sørg for, at position er indstillet for indholdet */
+  z-index: 1; /* Placer indholdet over pseudo-elementet */
+}
+
+/*Videosite*/
+.videosite_overskrift {
+  text-align: center;
+}
+
+.bredformat,
+.vs_portraet,
+.hoejformat {
+  padding: 20px;
+}
+
+.videosite_knap {
+  margin-top: 30px;
+}
+
+/*Redesing*/
+.redesign {
+  text-align: center;
+}
+
+.redesign_txt,
+.redesign_txt2,
+.redesign_txt3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.re_grid,
+.in_styletile {
+  margin-top: 20px;
+}
+
+.re_grid2 {
+  margin-top: 20px;
+}
+
+.re_grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.re_grid4 ul li {
+  padding-left: 15px;
+  line-height: 24px;
+}
+
+.gammel {
+  margin-bottom: 30px;
+}
+
+.re_grid5 {
+  gap: 20px;
+}
+
+.redesign_knap {
+  margin-top: 30px;
+}
+
+/*FOOTER*/
+footer {
+  margin-top: 40px;
+  width: 100%;
+  position: absolute;
+  padding-top: 20px;
+  line-height: 12px;
+  background-color: black;
+}
+
+.footer_logo {
+  color: white;
+  margin-left: 30px;
+}
+
+.footer_logo:hover {
+  color: #d63511;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.col h1 {
+  font-size: 25px;
+  margin-bottom: 80px;
+  color: white;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col1 p {
+  font-size: 16px;
+  color: white;
+  padding-top: 15px;
+}
+
+.icons .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 20px;
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+
+.col2 {
+  margin-left: 50px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 12px;
+  margin-left: -15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+}
+
+ul li a:hover {
+  color: #d63511;
+  transition: 0.3s;
+  padding: 8px;
+}
+
+.email-id {
+  width: fit-content;
+  border-bottom: 1px solid white;
+}
