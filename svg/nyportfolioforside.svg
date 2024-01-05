@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 898 564">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        stroke: #d63511;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-6, .cls-7, .cls-4 {
+        fill: #d63511;
+      }
+
+      .cls-7, .cls-4 {
+        font-size: 180px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-7" transform="translate(65.7 223.3)"><tspan class="cls-3" x="0" y="0">P</tspan><tspan class="cls-2" x="103.32" y="0">ort-</tspan><tspan class="cls-1" x="435.59" y="0"> </tspan></text>
+      <text class="cls-4" transform="translate(461.57 453.08)"><tspan class="cls-9" x="0" y="0">f</tspan><tspan class="cls-8" x="56.7" y="0">o</tspan><tspan class="cls-5" x="153.54" y="0">lio</tspan></text>
+      <line class="cls-6" x1="3.5" y1="2" x2="3.5" y2="356.5"/>
+      <line class="cls-6" x1="894.5" y1="206" x2="894.5" y2="560.5"/>
+      <line class="cls-6" y1="3.5" x2="499.5" y2="3.5"/>
+      <line class="cls-6" x1="434.5" y1="560.5" x2="898" y2="560.5"/>
+    </g>
+  </g>
+</svg>

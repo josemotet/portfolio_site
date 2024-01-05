@@ -125,6 +125,36 @@ nav a:hover {
 }
 
 /*FORSIDE*/
+.forside_logo {
+  text-align: center;
+}
+
+.forside_logo img {
+  max-width: 100%;
+  height: auto;
+  width: 750px;
+  margin: 0 auto;
+}
+
+/* .portfolio_forside {
+  background-image: url(svg/nyportfolioforside.svg);
+  position: absolute;
+}
+
+.pulse {
+  animation-name: portfolio_forside_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolio_forside_kf {
+  0% {
+    box-shadow: 0 0 0 0 #d63511;
+  }
+  100% {
+    translate: 0 0 0 17px black;
+  }
+} */
 
 /*OM*/
 a {
@@ -214,7 +244,7 @@ a {
 .grid h3,
 .flex h3,
 .media h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .computer {
@@ -349,6 +379,12 @@ a {
   margin-right: 10px;
 }
 
+.ani_txt_container {
+  margin-top: 30px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
 .ani_txt_container1,
 .ani_txt_container2 {
   display: flex;
@@ -372,11 +408,30 @@ a {
 }
 
 /*05*/
+.in_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.in_overskrift {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* 
 .indhold {
   text-align: center;
 }
 
 .indhold_grid h2 {
+  text-align: center;
+} */
+
+.videosite,
+.redesign {
   text-align: center;
 }
 
@@ -455,6 +510,19 @@ a {
   text-align: center;
 }
 
+.videosite_txt {
+  text-align: left;
+  margin-top: 30px;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.videosite_img_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
 .bredformat,
 .vs_portraet,
 .hoejformat {
@@ -463,6 +531,8 @@ a {
 
 .videosite_knap {
   margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 140px;
 }
 
 /*Redesing*/
@@ -583,6 +653,11 @@ ul li a:hover {
   color: #d63511;
   transition: 0.3s;
   padding: 8px;
+}
+
+.icons .fa-brands:hover {
+  color: #d63511;
+  transition: 0.3s;
 }
 
 .email-id {
