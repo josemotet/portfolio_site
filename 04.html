@@ -50,22 +50,72 @@
     </header>
 
     <main>
-        <hr>
 
-        <div class="animation">
+        <div class="ani_container">
+            <div class="ani_overskrift">
+                <h2>Grundlæggende Animation</h2>
+            </div>
+
+            <h3>Opgave</h3>
+            <p>Animationsforløbet blev inddelt i forskellige faser. </p>
+
+            <p>Den første del af temaet er den indledende fase som tager udgangspunkt i koncept og ide til spillet. Ud
+                fra de skitserings- og idegenereringsteknikker blev der udarbejdet de grafiske elementer, heraf
+                baggrund, spilelementer, UI-elementer. Alle elementer er gemt ned i svg-filer (scalable vector
+                graphics),
+                der muliggør fleksibel skalering af grafikken i forskellige størrelser til diverse formål. </p>
+
+            <div class="aniknap">
+                <a href="https://motet.dk/kea/04_animation/website/index.html" class="ux_knap">Link til kodet
+                    site</a>
+            </div>
+        </div>
+
+        <div class="animation_img_container">
+
+            <div class="animation_skitser">
+                <div class="skitser">
+                    <h3>Skitser</h3>
+                </div>
+                <div class="skitser_img">
+                    <img src="img/skitsebaggrund.webp" alt="skitser">
+                </div>
+            </div>
+
+            <div class="animation_farver">
+                <div class="farver">
+                    <h3>Farver</h3>
+                </div>
+                <div class="animation_img_2">
+                    <img src="svg/farver.svg" alt="farver">
+                </div>
+            </div>
+
+            <div class="animatione_figur">
+                <div class="figur">
+                    <h3>Figurer</h3>
+                </div>
+                <div class="figur_img">
+                    <img src="svg/figurer.svg" alt="figurer">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="animation">
 
             <h1>04 Animation</h1>
 
             <a href="https://motet.dk/kea/04_animation/website/index.html" class="ux_knap">Link til kodet site</a>
         </div>
 
-        <hr>
+
 
         <div class="animation_overskrift">
             <h2>Grundlæggende Animation</h2>
-        </div>
+        </div> -->
 
-        <div class="animation_grid">
+        <div class="ani_txt_container1">
             <div class="animation_grid_txt">
                 <h3>
                     Meteor Mission
@@ -99,9 +149,21 @@
             </div>
         </div>
 
-        <hr>
+        <div class="ani_txt_container2">
+            <h3>Valgt Stil</h3>
+            <p>
+                Jeg har valgt at udvikle mit spil med stilen Flat Design 2. Spillet har dermed det enkle og flade
+                udtryk samtidig med at elementerne ingen tredimensionelle egenskaber har. Karaktererne og baggrunden
+                får derfor en tegneserie stemning gennem min valgte stil. Selve billedet er opdelt i tre dele for at
+                skabe en tydelig setting - altså for- mellem- og baggrund.
+                Former og farver er enkle og lette, hvilket gør navigationen tydelig og nem for brugeren. Der lægges
+                vægt på en lille mængde indhold i spillet, da det ikke er nødvendigt med overflødig grafik.
+            </p>
+        </div>
 
-        <div class="animation_grid2">
+
+
+        <!-- <div class="animation_grid2">
 
             <div class="animation_skitser">
                 <div class="skitser">
@@ -129,10 +191,10 @@
                     <img src="svg/figurer.svg" alt="figurer">
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <hr>
 
+        <!-- 
         <div class="stil">
             <div class="valgtstil">
                 <h3>Valgt Stil</h3>
@@ -145,11 +207,11 @@
                     vægt på en lille mængde indhold i spillet, da det ikke er nødvendigt med overflødig grafik.
                 </p>
             </div>
-        </div>
+        </div> -->
 
-        <hr>
 
-        <div class="animation_grid3">
+
+        <div class="ani_container_assets">
             <div class="animation_baggrund">
                 <h3>Baggrundsskærm</h3>
                 <img src="svg/animation_baggrund.svg" alt="baggrund">
@@ -162,24 +224,21 @@
                 <h3>Game Over</h3>
                 <img src="svg/gameover.svg" alt="gameover">
             </div>
-
-            <div class="animation_grid4_txt">
-                <p>Et eller andet dope...</p>
-            </div>
         </div>
 
-        <hr>
+        <div class="ani_container_teknik">
 
-        <div class="animation_grid4">
             <div class="animation_diagram">
                 <div class="diagram">
                     <h3>Aktivitetsdiagram</h3>
                 </div>
                 <div class="diagram_img">
                     <img src="svg/aktivitetsdiagram.svg" alt="aktivitetsdiagram">
-                    <p>Undgå stjerneskuddene og få ram på meteorerne inden de rammer jorden. En videnskabsmand står med
-                        sin stjernekikkert, og ser at der falder meteorer ned fra himlen. Hjælp med at skyde meteorerne
-                        ned ved at klikke på dem inden de rammer jorden.</p>
+                </div>
+                <div class="ani_txt_container">
+                    <p>Undgå stjerneskuddene og få ram på meteorerne inden de rammer jorden. En videnskabsmand står
+                        med sin stjernekikkert, og ser at der falder meteorer ned fra himlen. Hjælp med at skyde
+                        meteorerne ned ved at klikke på dem inden de rammer jorden.</p>
 
                     <p> Hvis man klikker på et stjerneskud, mister man et point.</p>
                     <p> Klikkes der på en af meteorerne, får man et point.</p>
@@ -188,22 +247,65 @@
                     <p> Spillet varer 20 sekunder, man har 3 liv, og det gælder om at få 15 point for at vinde.</p>
                 </div>
             </div>
+
             <div class="animation_smd">
                 <div class="smd">
                     <h3>State Machine Diagram</h3>
                 </div>
                 <div class="smd_img">
                     <img src="svg/statemachine.svg" alt="statemachinediagram">
-                    <p>State Machine Diagrammet illustrerer hvilke funktioner der gør jeg gældende i mit spil. Hvordan
-                        det er bygget op, hvad der sker når meteorer og stjerneskud falder ned fra himlen. Diagrammet
-                        udgør dermed en guide til Java Script, hvor man nemt kan se spillets opbygning.</p>
+                </div>
+                <div class="ani_txt_container">
+                    <p>State Machine Diagrammet illustrerer hvilke funktioner der gør jeg gældende i mit spil.
+                        Hvordan det er bygget op, hvad der sker når meteorer og stjerneskud falder ned fra himlen.
+                        Diagrammet udgør dermed en guide til Java Script, hvor man nemt kan se spillets opbygning.</p>
                 </div>
             </div>
+
         </div>
 
-        <hr>
 
-        <a href="https://motet.dk/kea/04_animation/website/index.html" class="ux_knap">Link til kodet site</a>
+        <!-- <div class="ani_container_teknik">
+            <div class="animation_diagram">
+                <div class="diagram">
+                    <h3>Aktivitetsdiagram</h3>
+                </div>
+                <div class="diagram_img">
+                    <img src="svg/aktivitetsdiagram.svg" alt="aktivitetsdiagram">
+                    <div class="ani_txt_container">
+                        <p>Undgå stjerneskuddene og få ram på meteorerne inden de rammer jorden. En videnskabsmand står
+                            med
+                            sin stjernekikkert, og ser at der falder meteorer ned fra himlen. Hjælp med at skyde
+                            meteorerne
+                            ned ved at klikke på dem inden de rammer jorden.</p>
+
+                        <p> Hvis man klikker på et stjerneskud, mister man et point.</p>
+                        <p> Klikkes der på en af meteorerne, får man et point.</p>
+                        <p>Når man ikke at klikke på meteorerne inden de rammer jorden mister man et liv.</p>
+
+                        <p> Spillet varer 20 sekunder, man har 3 liv, og det gælder om at få 15 point for at vinde.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="animation_smd">
+                <div class="smd">
+                    <h3>State Machine Diagram</h3>
+                </div>
+                <div class="smd_img">
+                    <img src="svg/statemachine.svg" alt="statemachinediagram">
+                    <div class="ani_txt_container">
+                        <p>State Machine Diagrammet illustrerer hvilke funktioner der gør jeg gældende i mit spil.
+                            Hvordan
+                            det er bygget op, hvad der sker når meteorer og stjerneskud falder ned fra himlen.
+                            Diagrammet
+                            udgør dermed en guide til Java Script, hvor man nemt kan se spillets opbygning.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- <a href="https://motet.dk/kea/04_animation/website/index.html" class="ux_knap">Link til kodet site</a> -->
     </main>
 
     <footer>

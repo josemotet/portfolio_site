@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Roboto&display=swap"
         rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/402d54e454.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -51,35 +53,125 @@
 
     <main>
 
+        <div class="web_container">
+            <div class="web_overskrift">
+                <h2>Grundlæggende Web</h2>
+            </div>
 
-        <div class="web_overskrift">
-            <h1>02 Web</h1>
+            <h3>Opgave</h3>
+            <p>I temaet ”Grundlæggende web” blev vi introduceret for HTML, CSS, Grid, Flex og Media Querires. Dette
+                skulle
+                bruges til at få opbygget vores responsive site ”Min Computer” til studiestartsprøven. Nedenfor kan man
+                se de forskellige værktøjer vi har arbejdet med for at kunne bruge HTML og CSS optimalt. Samt link til
+                studiestartsprøven.</p>
+
+            <div class="webknap">
+                <a href="http://motet.dk/kea/02_web/01_website/website/index.html" class="ux_knap">Link til kodet
+                    site</a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="computer"><img src="img/02_web_computer.webp" alt="computer"></div>
+
+
+        <div class="grid">
+            <h3>Grid</h3>
+            <p>Grid består af en grid container (parent) samt grid items (child). Grid hjælper med at opstille en
+                struktureret og responsiv sideopbygning. I studiestartsprøven jeg blandt andet benyttet det
+                til at opstille billeder på mit site. Dette kan ses på billederne nedenfor hvor jeg ved hjælp af HTML og
+                CSS har positioneret de forskellige billeder.</p>
+        </div>
+
+        <div class="web_grid_img">
+            <div class="gridhtml">
+                <img src="img/grid_galleri_html.webp" alt="grid">
+            </div>
+            <div class="gridcss">
+                <img src="img/grid_galleri.webp" alt="gridgalleri">
+            </div>
+            <div class="gridgalleri">
+                <img src="img/galleri.webp" alt="galleri">
+            </div>
+        </div>
+
+        <div class="flex">
+            <h3>Flex</h3>
+            <p>Ved at bruge Flex kan man kontrollere rumfordeling, justering og rækkefølge af elementer. Dette har jeg
+                gjort i min menu i studiestartsprøven. Dette gjorde det dermed overskueligt for brugeren at navigere
+                rundt i de forskellige menuer. </p>
+        </div>
+
+        <div class="web_flex_img">
+            <div class="flexhtml"><img src="img/flex_html.webp" alt="flexhtml"></div>
+
+
+            <div class="flexcss"><img src="img/flex.webp" alt="flexcss"></div>
+        </div>
+
+        <div class="media">
+            <h3>Mediaquery</h3>
+            <p>Ved at bruge mediaquery kan man skabe responsive løsninger, der tilpasser sig skærmstørrelser. Sammen med
+                Flex og Grid kan man dermed muligøre en dynamisk omorganisering af layoutet ved at justere rundt. Dette
+                giver en optimal visning på forskellige enheder.
+                I studiestartsprøven havde jeg sat mediaqueryen i min layout CSS på min-width 800px, som dermed
+                tilpassede mit layout. Dette kan ses nedenfor på en af siderne, hvor opstillingen af elementer rykker
+                sig efter om det er på mobil eller desktop.
+            </p>
+        </div>
+
+        <div class="web_media_img">
+
+            <div class="mediamobil"><img src="img/mobil_mq.webp" alt="mobil"></div>
+
+            <div class="mediacom"><img src="img/com_mq.webp" alt="com"></div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="col">
+            <h1>
+                <div class="footer_logo">Josephine Motet</div>
+            </h1>
         </div>
 
         <hr>
 
-        <h2>Grundlæggende Web</h2>
+        <div class="row">
 
-
-        <div class="web_grid">
-            <div class="web_grid_txt">
-                <h3>Studiestartsprøven</h3>
-                <p>Velkommen til min side om studiestartsprøven</p>
+            <div class="col2">
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="02.html">02 Web</a></li>
+                    <li><a href="03.html">03 UX</a></li>
+                    <li><a href="04.html">04 Animation</a></li>
+                    <li><a href="05.html">05 Indhold</a></li>
+                    <li><a href="om.html">Om</a></li>
+                </ul>
             </div>
 
-            <div class="web_grid_img">
-                <img src="img/02_web_computer.webp" alt="computer">
+            <div class="col1">
+                <p class="email-id">josephinemotetj@gmail.com</p>
+                <p>+45 52 50 11 09</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/josemotet/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/josephinemotet.jessen">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                </div>
             </div>
         </div>
 
+    </footer>
 
-
-
-
-
-
-
-    </main>
 
 </body>
 

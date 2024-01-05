@@ -45,16 +45,73 @@
   }
 
   /*02*/
-  .web_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .web_container {
+    margin-left: 350px;
+    margin-right: 350px;
+    line-height: 24px;
+  }
+
+  .webknap {
+    margin-top: 20px;
+  }
+
+  .computer img {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+  }
+
+  .grid,
+  .flex,
+  .media {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
+  .web_grid_img,
+  .web_flex_img,
+  .web_media_img {
+    display: flex;
+    column-gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .webknap {
+    margin-top: 90px;
+    justify-self: center;
   }
 
   /*03*/
-  .ux_overskrift {
-    margin-left: 300px;
-    margin-right: 300px;
+  .ux_container {
+    margin-left: 350px;
+    margin-right: 350px;
     line-height: 24px;
+  }
+
+  .uxknap {
+    margin-top: 100px;
+  }
+
+  .ux_txt_box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .ux_img_container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .ux_img_design {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .ux_grid {
@@ -77,35 +134,78 @@
     line-height: 24px;
   }
 
-  .ux_img_grid,
-  .ux_img_grid_2,
-  .ux_img_grid_3,
-  .ux_img_grid_4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px;
-  }
-
-  .ux_sitemap {
-    text-align: center;
-  }
-
-  .ux_img_prototype_mob {
-    width: 40%;
-  }
-
   .ux_img_sitemap {
     width: 50%;
     display: block;
     margin: 0 auto;
   }
 
-  .ux_knap {
-    margin-left: 600px;
+  /*04*/
+  .ani_container {
+    margin-left: 350px;
+    margin-right: 350px;
+    line-height: 24px;
   }
 
-  /*04*/
-  .animation_grid,
+  .aniknap {
+    margin-top: 100px;
+  }
+
+  .animation_img_container {
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 40px;
+  }
+
+  .ani_txt_container1 {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    gap: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 24px;
+  }
+
+  .ani_container_assets {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: flex-end;
+  }
+
+  .ani_container_teknik {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 40px;
+  }
+
+  .animation_diagram,
+  .animation_smd {
+    flex: 1; /* Billederne fylder lige meget */
+    margin-right: 20px; /* Juster dette efter behov for at tilføje afstand mellem sektionerne */
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px; /* Sætter margen nederst for at justere billedet i bunden af flex-containeren */
+  }
+
+  .ani_txt_container {
+    max-width: 400px; /* Juster dette efter behov for at begrænse bredden af teksten */
+    margin: 0 auto; /* Centrerer teksten inden for containeren */
+  }
+
+  /* .animation_grid,
   .animation_grid2,
   .animation_grid3 {
     display: grid;
@@ -123,7 +223,7 @@
     margin-left: 300px;
     margin-right: 300px;
     line-height: 24px;
-  }
+  } */
 
   /*05*/
   .indhold_grid {
