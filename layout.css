@@ -20,7 +20,32 @@
   }
 
   /*Om*/
-  .om_grid {
+  .cv_img_contianer {
+    margin-top: 100px;
+    margin-left: 320px;
+    width: 50%;
+    justify-items: center;
+  }
+
+  .cv_txt_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .cv_liste {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .cv_liste li {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  /* .om_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -42,7 +67,7 @@
   .portraet2 {
     width: 60%;
     margin-left: auto;
-  }
+  } */
 
   /*02*/
   .web_container {
@@ -138,6 +163,10 @@
     width: 50%;
     display: block;
     margin: 0 auto;
+  }
+
+  .uxknap_pitch {
+    margin-left: 520px;
   }
 
   /*04*/

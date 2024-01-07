@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 510.37 328.53">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+        font-size: 39px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #df0e00;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g class="cls-4">
+      <text class="cls-1" transform="translate(477.06 2) rotate(90) scale(1.08 1)"><tspan x="0" y="0">J</tspan></text>
+      <text class="cls-3" transform="translate(477.06 14.97) rotate(90) scale(1.08 1)"><tspan x="0" y="0">osephine </tspan></text>
+      <text class="cls-1" transform="translate(477.06 196.71) rotate(90) scale(1.08 1)"><tspan x="0" y="0">M</tspan></text>
+      <text class="cls-3" transform="translate(477.06 232.65) rotate(90) scale(1.08 1)"><tspan x="0" y="0">ote</tspan></text>
+      <text class="cls-2" transform="translate(477.06 291.95) rotate(90) scale(1.08 1)"><tspan x="0" y="0">t</tspan></text>
+    </g>
+    <image width="1200" height="857" transform="translate(0 40.31) scale(.35 .34)" xlink:href="../../../../../../../var/folders/tq/9ymhypjx2yb8flgbf2mfqlhr0000gn/T/TemporaryItems/NSIRD_Illustrator_nIVw7a/AI_28_0/Adobe/AISVG/8/Asset 1/Asset 11.png"/>
+    <rect class="cls-5" x="48.68" y="2" width="404.07" height="303.5"/>
+  </g>
+</svg>
