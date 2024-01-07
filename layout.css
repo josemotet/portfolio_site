@@ -27,6 +27,11 @@
     justify-items: center;
   }
 
+  .cv_txt {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
   .cv_txt_container {
     display: flex;
     flex-direction: column;
