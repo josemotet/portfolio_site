@@ -82,7 +82,104 @@ hr {
 }
 
 /*HEADER*/
-header {
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav_menu {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 100px;
+}
+
+.nav_branding {
+  font-size: 42px;
+  font-family: "Playfair Display", serif;
+}
+
+.nav_branding:hover {
+  color: #d63511;
+  transition: 0.3s;
+}
+
+.nav_link {
+  transition: 0.7s ease;
+}
+
+.nav_link:hover {
+  color: #d63511;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translate(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translate(-8px) rotate(-45deg);
+  }
+
+  .nav_menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .nav_item {
+    margin: 16px 0;
+  }
+
+  .nav_menu.active {
+    left: 0;
+  }
+}
+
+/* header {
   border-bottom: 1px solid black;
 }
 
@@ -122,19 +219,34 @@ nav a {
 nav a:hover {
   color: #d63511;
   transition: 0.3s;
-}
+} */
 
 /*FORSIDE*/
 .forside_logo {
+  position: relative;
   text-align: center;
   margin-top: 90px;
+  margin-bottom: 70px;
 }
 
 .forside_logo img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   width: 750px;
   margin: 0 auto;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* .portfolio_forside {
@@ -688,7 +800,7 @@ ul li {
   margin-left: -15px;
 }
 
-ul li a {
+.col2 ul li a {
   text-decoration: none;
   color: white;
   font-family: "Source Sans 3", sans-serif;
