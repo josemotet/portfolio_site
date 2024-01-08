@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1126.64 703.03">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #231f20;
+        font-size: 40px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8 {
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        fill: #d63927;
+        font-size: 180px;
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke: #d63927;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <g class="cls-7">
+          <text class="cls-5" transform="translate(56.91 176.65)"><tspan x="0" y="0">P</tspan></text>
+          <text class="cls-6" transform="translate(160.23 176.65)"><tspan x="0" y="0">ort-</tspan></text>
+        </g>
+        <line class="cls-9" x1="5.46" y1=".44" x2="5.46" y2="403.31"/>
+        <g class="cls-7">
+          <text class="cls-8" transform="translate(713.58 591.05)"><tspan x="0" y="0">f</tspan></text>
+          <text class="cls-6" transform="translate(770.28 591.05)"><tspan x="0" y="0">o</tspan></text>
+          <text class="cls-6" transform="translate(867.12 591.05)"><tspan x="0" y="0">lio</tspan></text>
+        </g>
+        <line class="cls-9" x1="1099.11" y1="403.31" x2="1099.11" y2="686.62"/>
+        <line class="cls-9" x1="413.64" y1="686.62" x2="1102.54" y2="686.62"/>
+        <line class="cls-9" x1="1.93" y1="3.5" x2="534.31" y2="3.5"/>
+        <line class="cls-9" x1="950.16" y1="3.5" x2="1102.55" y2="3.5"/>
+        <g class="cls-7">
+          <text class="cls-4" transform="translate(1092.48 49.21) rotate(90)"><tspan x="0" y="0">Af </tspan></text>
+          <text class="cls-3" transform="translate(1092.48 97.65) rotate(90)"><tspan x="0" y="0">J</tspan></text>
+          <text class="cls-4" transform="translate(1092.48 109.97) rotate(90)"><tspan x="0" y="0">osephine </tspan></text>
+          <text class="cls-3" transform="translate(1092.48 282.57) rotate(90)"><tspan x="0" y="0">M</tspan></text>
+          <text class="cls-4" transform="translate(1092.48 316.69) rotate(90)"><tspan x="0" y="0">ote</tspan></text>
+          <text class="cls-1" transform="translate(1092.48 373) rotate(90)"><tspan x="0" y="0">t</tspan></text>
+        </g>
+        <line class="cls-9" x1="3.5" y1="686.62" x2="200.57" y2="686.62"/>
+        <line class="cls-9" x1="1099.11" y1="1.03" x2="1099.11" y2="44.38"/>
+        <line class="cls-9" x1="3.5" y1="606.05" x2="3.5" y2="690.38"/>
+        <g class="cls-7">
+          <text class="cls-4" transform="translate(219.43 693.39)"><tspan x="0" y="0">2023</tspan></text>
+          <text class="cls-2" transform="translate(299.79 693.39)"><tspan x="0" y="0">/</tspan></text>
+          <text class="cls-4" transform="translate(313.99 693.39)"><tspan x="0" y="0">2024</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
