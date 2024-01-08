@@ -12,7 +12,7 @@
   }
 
   p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
   }
 
@@ -33,8 +33,8 @@
   }
 
   .cv_txt {
-    margin-left: 550px;
-    margin-right: 550px;
+    margin-left: 350px;
+    margin-right: 350px;
   }
 
   .cv_txt_container {
@@ -53,7 +53,7 @@
     list-style-type: disc;
     margin-left: 20px;
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /* .om_grid {
@@ -82,8 +82,8 @@
 
   /*02*/
   .web_container {
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 350px;
+    margin-right: 350px;
     line-height: 24px;
   }
 
@@ -95,14 +95,14 @@
     width: 60%;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 350px;
+    margin-left: 280px;
   }
 
   .grid,
   .flex,
   .media {
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 350px;
+    margin-right: 350px;
   }
 
   .web_grid_img,
@@ -128,6 +128,12 @@
 
   .uxknap {
     margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .uxknap_proces {
+    margin-top: 20px;
+    margin-left: 180px;
   }
 
   .ux_txt_box {
@@ -177,7 +183,7 @@
   }
 
   .uxknap_pitch {
-    margin-left: 520px;
+    margin-left: 550px;
   }
 
   /*04*/
@@ -189,6 +195,7 @@
 
   .aniknap {
     margin-top: 100px;
+    margin-bottom: 50px;
   }
 
   .animation_img_container {
@@ -204,11 +211,11 @@
   .ani_txt_container1 {
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    gap: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     line-height: 24px;
   }
 
@@ -275,8 +282,8 @@
 
   /*05*/
   .in_container p {
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 350px;
+    margin-right: 350px;
     overflow-wrap: break-word;
     hyphens: auto;
   }
@@ -411,15 +418,15 @@
 
   /*videosite*/
   .videosite_txt {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 350px;
+    margin-right: 350px;
     margin-top: 30px;
   }
 
   .videosite_knap {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 780px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 550px;
   }
 
   .videosite_img {
@@ -431,6 +438,13 @@
   .videosite_img_grid {
     margin-left: 300px;
     margin-right: 300px;
+  }
+
+  .video {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /*Footer*/

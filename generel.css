@@ -51,6 +51,7 @@ a {
 }
 
 p {
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: black;
   overflow-wrap: break-word;
@@ -89,7 +90,7 @@ li {
 a {
   color: black;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .navbar {
@@ -105,13 +106,13 @@ a {
   /* justify-content: space-between; */
   align-items: center;
   gap: 100px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .nav_branding {
-  font-size: 52px;
+  font-size: 42px;
   font-family: "Playfair Display", serif;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .nav_branding:hover {
@@ -273,7 +274,38 @@ nav a:hover {
 } */
 
 /*OM*/
-a {
+.cv_img_contianer {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cv_txt_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cv_overskrift {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cv_liste {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.cv_liste li {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* a {
   font-weight: lighter;
 }
 
@@ -333,7 +365,7 @@ a {
 
 .sted {
   justify-self: start;
-}
+} */
 
 /*02*/
 .web_container {
@@ -394,6 +426,11 @@ a {
   margin-top: 20px;
 }
 
+.uxknap_proces {
+  justify-self: center;
+  margin-left: 100px;
+}
+
 .ux_overskrift {
   text-align: center;
   margin-bottom: 50px;
@@ -427,7 +464,7 @@ a {
 }
 
 .uxknap_pitch {
-  margin-left: 120px;
+  margin-left: 110px;
 }
 
 /* .UX {
@@ -749,6 +786,7 @@ footer {
   padding-top: 20px;
   line-height: 12px;
   background-color: black;
+  padding-bottom: 20px;
 }
 
 .footer_logo {
