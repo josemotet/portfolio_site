@@ -56,30 +56,6 @@
     font-size: 16px;
   }
 
-  /* .om_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 30px;
-  }
-
-  .om_grid_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin: 30px;
-  }
-
-  .portraet {
-    width: 60%;
-    order: 2;
-  }
-
-  .portraet2 {
-    width: 60%;
-    margin-left: auto;
-  } */
-
   /*02*/
   .web_container {
     margin-left: 350px;
@@ -260,26 +236,6 @@
     margin: 0 auto; /* Centrerer teksten inden for containeren */
   }
 
-  /* .animation_grid,
-  .animation_grid2,
-  .animation_grid3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 20px;
-  }
-
-  .animation_grid4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 20px;
-  }
-
-  .valgtstil {
-    margin-left: 300px;
-    margin-right: 300px;
-    line-height: 24px;
-  } */
-
   /*05*/
   .in_container p {
     margin-left: 350px;
@@ -370,51 +326,6 @@
     line-height: 30px;
     padding-left: 15px;
   }
-
-  /* .redesign_txt,
-  .redesign_txt2,
-  .redesign_txt3 {
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    line-height: 24px;
-  }
-
-  .re_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .re_grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
-  .re_grid4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .gammel,
-  .ny {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    line-height: 24px;
-  }
-
-  .re_grid5 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .redesign_knap {
-    margin-top: 50px;
-    justify-self: center;
-  } */
 
   /*videosite*/
   .videosite_txt {
