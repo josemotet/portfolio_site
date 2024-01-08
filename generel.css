@@ -533,6 +533,12 @@ a {
   margin-left: 140px;
 }
 
+.video {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
 /*Redesing*/
 .re_container {
   display: flex;
