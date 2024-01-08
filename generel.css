@@ -22,12 +22,12 @@ main {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h2,
 h3 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h1,
@@ -89,6 +89,7 @@ li {
 a {
   color: black;
   text-decoration: none;
+  font-size: 40px;
 }
 
 .navbar {
@@ -104,11 +105,13 @@ a {
   /* justify-content: space-between; */
   align-items: center;
   gap: 100px;
+  margin-right: 50px;
 }
 
 .nav_branding {
-  font-size: 42px;
+  font-size: 52px;
   font-family: "Playfair Display", serif;
+  margin-left: 50px;
 }
 
 .nav_branding:hover {
@@ -177,32 +180,6 @@ a {
   .nav_menu.active {
     left: 0;
   }
-}
-
-/*scroll up knap*/
-
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border-radius: black;
-  outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
-  color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 16px; /* Increase font size */
-  font-family: "Open Sans", sans-serif;
-}
-
-#myBtn:hover {
-  background-color: black;
-  color: white; /* Add a dark-grey background on hover */
 }
 
 /* header {
@@ -776,7 +753,7 @@ footer {
 
 .footer_logo {
   color: white;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .footer_logo:hover {
@@ -789,6 +766,7 @@ footer {
   font-size: 25px;
   margin-bottom: 80px;
   color: white;
+  margin-left: 50px;
 }
 
 .row {
