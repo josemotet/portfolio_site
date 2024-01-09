@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1779.02 443">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #d63927;
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+        font-size: 90px;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #d63927;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g class="cls-3">
+        <text class="cls-2" transform="translate(550.72 140.39)"><tspan class="cls-5" x="0" y="0">P</tspan><tspan x="51.66" y="0">ort-</tspan></text>
+      </g>
+      <line class="cls-4" x1="453" y1="0" x2="452.95" y2="309.05"/>
+      <g class="cls-3">
+        <text class="cls-2" transform="translate(957.61 356.79)"><tspan class="cls-7" x="0" y="0">f</tspan><tspan class="cls-6" x="28.35" y="0">o</tspan><tspan class="cls-1" x="76.77" y="0">lio</tspan></text>
+      </g>
+      <line class="cls-4" x1="1236.6" y1="159.05" x2="1236.6" y2="442.36"/>
+      <line class="cls-4" x1="762" y1="441" x2="1237" y2="441"/>
+      <line class="cls-4" x1="453.42" y1="2.24" x2="958" y2="2.24"/>
+      <line class="cls-4" x1="455" y1="310" x2="0" y2="310"/>
+      <line class="cls-4" x1="1779.01" y1="163" x2="1235.01" y2="161"/>
+    </g>
+  </g>
+</svg>

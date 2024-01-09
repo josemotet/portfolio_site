@@ -18,10 +18,20 @@
 
   /*FORSIDE*/
 
-  .portfolio_forside {
+  /* .portfolio_forside {
     justify-content: center;
     width: 50%;
     margin-left: 300px;
+  } */
+
+  .forside_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forside_logo img {
+    width: 40%;
   }
 
   /*Om*/
