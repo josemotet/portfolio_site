@@ -17,13 +17,6 @@
   }
 
   /*FORSIDE*/
-
-  /* .portfolio_forside {
-    justify-content: center;
-    width: 50%;
-    margin-left: 300px;
-  } */
-
   .forside_logo {
     display: flex;
     justify-content: center;
@@ -230,7 +223,7 @@
   .animation_diagram,
   .animation_smd {
     flex: 1; /* Billederne fylder lige meget */
-    margin-right: 20px; /* Juster dette efter behov for at tilføje afstand mellem sektionerne */
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -238,11 +231,11 @@
   img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 30px; /* Sætter margen nederst for at justere billedet i bunden af flex-containeren */
+    margin-bottom: 30px;
   }
 
   .ani_txt_container {
-    max-width: 400px; /* Juster dette efter behov for at begrænse bredden af teksten */
+    max-width: 400px;
     margin: 0 auto; /* Centrerer teksten inden for containeren */
   }
 
