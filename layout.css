@@ -305,6 +305,15 @@
     gap: 30px;
   }
 
+  .re_img_container_bert {
+    display: flex;
+    width: 20%;
+    margin-bottom: 30px;
+    margin-left: 520px;
+    margin-right: 200px;
+    gap: 30px;
+  }
+
   .re_styletile {
     width: 220%;
   }

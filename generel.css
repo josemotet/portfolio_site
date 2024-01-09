@@ -621,6 +621,14 @@ video {
   margin-bottom: 50px;
 }
 
+.re_img_container_bert {
+  display: flex;
+  width: 50%;
+  margin-bottom: 30px;
+  margin-left: 105px;
+  gap: 30px;
+}
+
 .re_styletile,
 .reprototype,
 .nyforside,
