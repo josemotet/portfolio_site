@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 884 643.09">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+        font-size: 80px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #d53827;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-1" transform="translate(573.31 406) scale(.95 1)"><tspan class="cls-3" x="0" y="0">J</tspan><tspan x="24.64" y="0">ose-</tspan><tspan x="0" y="96">phine</tspan><tspan class="cls-3" x="0" y="192">M</tspan><tspan x="68.24" y="192">ote</tspan><tspan class="cls-8" x="180.88" y="192">t</tspan></text>
+    <text class="cls-1" transform="translate(135.59 102.03) scale(.95 1)"><tspan class="cls-5" x="0" y="0">P</tspan><tspan x="45.92" y="0">ort-</tspan><tspan class="cls-7" x="0" y="96">f</tspan><tspan class="cls-6" x="25.2" y="96">o</tspan><tspan class="cls-2" x="68.24" y="96">lio</tspan><tspan x="0" y="192">af</tspan></text>
+    <text/>
+    <rect class="cls-4" x="2.5" y="2.5" width="879" height="638.09"/>
+  </g>
+</svg>

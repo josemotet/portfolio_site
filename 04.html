@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>04</title>
+    <meta name="robots" content="noindex">
+    <meta name="description"
+        content="Velkommen til mit portfolio site hvor du kan få indblik i mine forskellige projekter under min uddannelse til Multimediedesigner.">
+
+    <title>Forside</title>
 
     <link rel="stylesheet" href="generel.css">
     <link rel="stylesheet" href="layout.css">
@@ -22,6 +26,10 @@
         href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Playfair+Display:wght@500&family=Roboto&display=swap"
         rel="stylesheet">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_portfolio/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_portfolio/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_portfolio/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -86,7 +94,7 @@
                     <h3>Skitser</h3>
                 </div>
                 <div class="skitser_img">
-                    <img src="img/skitsebaggrund.webp" alt="skitser">
+                    <img src="img/skitsebaggrund.webp" width="186" height="131" alt="skitser">
                 </div>
             </div>
 
@@ -95,7 +103,7 @@
                     <h3>Farver</h3>
                 </div>
                 <div class="animation_img_2">
-                    <img src="svg/farver.svg" alt="farver">
+                    <img src="svg/farver.svg" width="186" height="243" alt="farver">
                 </div>
             </div>
 
@@ -104,12 +112,12 @@
                     <h3>Figurer</h3>
                 </div>
                 <div class="figur_img">
-                    <img src="svg/figurer.svg" alt="figurer">
+                    <img src="svg/figurer.svg" width="186" height="159" alt="figurer">
                 </div>
             </div>
         </div>
 
-        <div class="ani_txt_container1">
+        <!-- <div class="ani_txt_container1">
             <div class="animation_grid_txt">
                 <h3>
                     Meteor Mission
@@ -141,7 +149,7 @@
                     spillet
                     skulle skitseres og designes.</p>
             </div>
-        </div>
+        </div> -->
 
         <div class="ani_txt_container2">
             <h3>Valgt Stil</h3>
@@ -155,18 +163,46 @@
             </p>
         </div>
 
+        <div class="ani_txt_container2">
+            <h3>Næste del af temaet</h3>
+            <p>
+                Den anden del af temaet opstarter man en html side. Her skal spillet foregå, hvor selve spil-scenen
+                opbygges gennem html og CSS, hvor spil- og UI-elementerne placeres. Disse elementer skal efterfølgende
+                animeres ved hjælp af CSS.
+                For at styre spil-elementerne kræves anvendelse af Javascript bruges, der muliggør start- og
+                stopfunktioner.
+                Det krav i spillet er de gode og de onde spil-elementer. Når disse elementer klikkes på, forsvinder
+                de, hvorefter nye kommer til.
+            </p>
+        </div>
+
+        <div class="animation_svg_container">
+            <div class="stjerneskud">
+                <img src="svg/anistjerneskud.svg" width="160" height="131" alt="stjerne">
+            </div>
+
+            <div class="meteor"><img src="svg/animeteor.svg" width="160" height="170" alt="meteor"></div>
+
+        </div>
+
+        <div class="ani_txt_container2">
+            <p>Dernæst programmeres elementerne så de kan optjene liv, mister liv eller taber point, hvilket bidrager
+                til en dynamisk spiloplevelse, da spillet kan tabes eller vindes. For at gøre denne del af spillet mere
+                levende implementeres lydeffekter når der klikkes på spil-elementerne.</p>
+        </div>
+
         <div class="ani_container_assets">
             <div class="animation_baggrund">
                 <h3>Baggrundsskærm</h3>
-                <img src="svg/animation_baggrund.svg" alt="baggrund">
+                <img src="svg/animation_baggrund.svg" width="210" height="117" alt="baggrund">
             </div>
             <div class="levelcomplete">
                 <h3>Level Complete</h3>
-                <img src="svg/levelcomplete.svg" alt="levelcomplete">
+                <img src="svg/levelcomplete.svg" width="210" height="117" alt="levelcomplete">
             </div>
             <div class="gameover">
                 <h3>Game Over</h3>
-                <img src="svg/gameover.svg" alt="gameover">
+                <img src="svg/gameover.svg" width="210" height="117" alt="gameover">
             </div>
         </div>
 
@@ -177,7 +213,7 @@
                     <h3>Aktivitetsdiagram</h3>
                 </div>
                 <div class="diagram_img">
-                    <img src="svg/aktivitetsdiagram.svg" alt="aktivitetsdiagram">
+                    <img src="svg/aktivitetsdiagram.svg" width="295" height="215" alt="aktivitetsdiagram">
                 </div>
                 <div class="ani_txt_container">
                     <p>Undgå stjerneskuddene og få ram på meteorerne inden de rammer jorden. En videnskabsmand står
@@ -197,7 +233,7 @@
                     <h3>State Machine Diagram</h3>
                 </div>
                 <div class="smd_img">
-                    <img src="svg/statemachine.svg" alt="statemachinediagram">
+                    <img src="svg/statemachine.svg" width="295" height="204" alt="statemachinediagram">
                 </div>
                 <div class="ani_txt_container">
                     <p>State Machine Diagrammet illustrerer hvilke funktioner der gør jeg gældende i mit spil.
