@@ -220,6 +220,11 @@
     gap: 40px;
   }
 
+  .stjerneskud,
+  .meteor {
+    width: 15%;
+  }
+
   .animation_diagram,
   .animation_smd {
     flex: 1; /* Billederne fylder lige meget */
